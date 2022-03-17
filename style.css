@@ -21,6 +21,7 @@ nav{
 .logo{
   font-size: 1.2rem;
   color: rgb(33,33 ,33);
+  overflow: hidden;
 }
 
 .hero-section{
@@ -28,6 +29,9 @@ nav{
   margin: 0% 10%;
 }
 
+h1{
+  margin-bottom: 20px;
+}
 
 .hero-section img{
   width: 100%;
@@ -54,12 +58,16 @@ nav{
   display: flex;
 }
 
+.cta-text h2{
+ overflow: hidden;
+}
+
 /* Adding Space between Text */
 .cta-text span{
   padding: 0rem 0.4rem;
                                      /*The x, y , and the blur  */
   text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px;
-
+   display: block;
 }
 
 .cta-btn{
