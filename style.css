@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+nav{
+  min-width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo{
+  font-size: 1.2rem;
+  color: rgb(33,33 ,33);
+}
+
+.hero-section{
+  height: 80vh;
+  margin: 0% 10%;
+}
+
+
+.hero-section img{
+  width: 100%;
+  height: 100%;
+  /* Adding an object fit of cover fixes the aspect ratio */
+  object-fit: cover;
+
+}
+
+.cta{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cta-text{
+  font-size: 2rem;
+  display: flex;
+}
+
+/* Adding Space between Text */
+.cta-text span{
+  padding: 0rem 0.4rem;
+                                     /*The x, y , and the blur  */
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px;
+
+}
+
+.cta-btn{
+  margin: 1rem;
+  background: #fff;
+  font-family: "Poppins";
+  border-radius: 0.3rem;
+  color: rgb(33,33 ,33);
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
