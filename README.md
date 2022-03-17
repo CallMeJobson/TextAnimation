@@ -1,4 +1,4 @@
-#Cookie Animation With Gsap
+# Cookie Animation With Gsap
 Learning Gsap by animating text! 
 
 
